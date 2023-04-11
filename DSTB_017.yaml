@@ -1,7 +1,7 @@
 proxies:
 - name: danu17_LiveDo17
   type: trojan
-  server: beacon.liveon.id
+  server: 104.21.8.121
   port: 443
   password: 2d7605fc-adb7-4fda-96c0-fefa6d2877dc
   udp: true
