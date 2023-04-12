@@ -1,5 +1,5 @@
 proxies:
-- name: danu17_LiveDo17a
+- name: danu17_LiveDo17
   type: trojan
   server: 104.21.8.121
   port: 443
