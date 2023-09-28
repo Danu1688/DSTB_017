@@ -1,17 +1,4 @@
 proxies:
-- name: Mukmin1_LiveNusa_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: d2315c6e-09d9-4b31-a0f3-71ea0af67903
-  udp: true
-  sni: vpna4mvbhv.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpna4mvbhv.scpotato.me
 - name: Mukmin1_LiveDO_1
   type: trojan
   server: circles.asia
@@ -25,6 +12,19 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
+- name: Mukmin1_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: d2315c6e-09d9-4b31-a0f3-71ea0af67903
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: TrojanWsSvr-Live_1
   type: trojan
   server: circles.asia
