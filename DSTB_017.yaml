@@ -1,4 +1,69 @@
 proxies:
+- name: DanuTjGo-Live_IP1
+  server: 104.17.224.203
+  port: 8443
+  type: trojan
+  password: danutjgo
+  network: ws
+  sni: dstb.cloud
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: dstb.cloud
+- name: DanuTjGo-Live_IP2
+  server: 104.16.143.190
+  port: 8443
+  type: trojan
+  password: danutjgo
+  network: ws
+  sni: dstb.cloud
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: dstb.cloud
+- name: DanuTjGo-Live_IP3
+  server: 172.67.75.37
+  port: 8443
+  type: trojan
+  password: danutjgo
+  network: ws
+  sni: dstb.cloud
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: dstb.cloud
+- name: DanuTjGo-Live_IP4
+  server: 104.26.15.208
+  port: 8443
+  type: trojan
+  password: danutjgo
+  network: ws
+  sni: dstb.cloud
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: dstb.cloud
+- name: DanuTjGo-Live_IP5
+  server: 104.26.14.208
+  port: 8443
+  type: trojan
+  password: danutjgo
+  network: ws
+  sni: dstb.cloud
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: dstb.cloud
 - name: TrojanGoDo1C-Live_IP1
   server: 104.17.224.203
   port: 8443
