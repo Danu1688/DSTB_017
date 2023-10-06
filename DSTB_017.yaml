@@ -1,4 +1,69 @@
 proxies:
+- name: Mukmin1Nusa_Live_IP1
+  type: trojan
+  server: 104.17.224.203
+  port: 443
+  password: 89c57190-03cf-4eb9-b77a-0512a19ac0c5
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: Mukmin1Nusa_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 89c57190-03cf-4eb9-b77a-0512a19ac0c5
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: Mukmin1Nusa_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 89c57190-03cf-4eb9-b77a-0512a19ac0c5
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: Mukmin1Nusa_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 89c57190-03cf-4eb9-b77a-0512a19ac0c5
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: Mukmin1Nusa_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 89c57190-03cf-4eb9-b77a-0512a19ac0c5
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
 - name: DanuTjGo-Live_IP1
   server: 104.17.224.203
   port: 8443
@@ -155,19 +220,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: danu529.foryou-ssh.my.id
-- name: Mukmin1_LiveNusa_1
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: d2315c6e-09d9-4b31-a0f3-71ea0af67903
-  udp: true
-  sni: vpna4mvbhv.scpotato.me
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: vpna4mvbhv.scpotato.me
 - name: TrojanWsSvr-Live_1
   type: trojan
   server: circles.asia
